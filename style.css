@@ -1,0 +1,93 @@
+body {
+    font-family: roboto, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.header {
+    height: 50px;
+}
+
+
+.header, .body-one {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 150px;
+    font-size: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-one-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-one-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.body-one-img {
+    background-color: rgb(107, 103, 103);
+    width: 280px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.body-one-header {
+    width: 220px;
+}
+
+.body-one-p {
+    font-size: 12px;
+    width: 220px;
+}
+
+.body-one-button-container {
+    width: 220px;
+    padding: 4px 12px;
+    margin-top: 5px;
+}
+
+.body-one-button {
+    background-color: rgba(5, 173, 230, 0.836);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.body-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
